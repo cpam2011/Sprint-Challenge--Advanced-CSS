@@ -34,23 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-An adaptive website is static and changes/adapts to browsers width or screen size at specific breakpoints on the page. A responsive design is a fluid transition/response to the browser width or screen size no matter how large or small.
+    An adaptive website is static and changes/adapts to browsers width or screen size at specific breakpoints on the page. A responsive design is a fluid transition/response to the browser width or screen size no matter how large or small.
 
 2. Describe what it means to be mobile first vs desktop first.
 
-Mobile first means that a website is being designed/optimized at the mobile viewport first then "up" to the desktop viewport. Desktop first means that a website is designed/optimized at the desktop viewport first then "down" to the mobile view.
+    Mobile first means that a website is being designed/optimized at the mobile viewport first then "up" to the desktop viewport. Desktop first means that a website is designed/optimized at the desktop viewport first then "down" to the mobile view.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-It allows us to easily convert px into rem so if a browser is set at medium in the settings the default value for 62.5% is 10px which equals 1 rem.
+    It allows us to easily convert px into rem so if a browser is set at medium in the settings the default value for 62.5% is 10px which equals 1 rem.
 
 4. How would you describe preprocessing to someone new to CSS?
 
-I would describe preprocessing as an efficient and structured way to style websites.
+    I would describe preprocessing as an efficient and structured way to style websites.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-My favorite concept in preprocessing is idea of using variables and mixins to reduce the amount of written code that may need to be repeated. The concept that gives me the most trouble is the way nesting works in preprocessing.
+    My favorite concept in preprocessing is idea of using variables and mixins to reduce the amount of written code that may need to be repeated. The concept that gives me the most trouble is the way nesting works in preprocessing.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
