@@ -2,7 +2,19 @@
 
 .home {
 
+
   .intro {
+    @media @phone {
+      width: 100%;
+    }
+
+    img {
+      border-radius: 5px;
+      @media @phone {
+        width: 100%;
+      }
+
+    }
 
     h2 {
       padding: 15px;
@@ -10,6 +22,10 @@
 
     p {
       padding:0 15px;
+      @media @phone {
+        padding: 0 15px;
+        margin: 0 auto;
+      }
     }
   
   }
@@ -17,25 +33,54 @@
   .space-images {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
     }
+
+    .blast {
+      @media @phone {
+        display: block;
+        width: 100%;
+        padding: 0 20px;
+        border-radius: 30px;
+      }
+    }
+
+    .sky {
+      @media @phone {
+        display: none;
+      }
+    }
+
+    .launch {
+      @media @phone {
+        display: none;
+      }
+    }
+
   }
 
   .visit-planets {
     padding: 15px;
-
+    
+    @media @phone {
+        padding-bottom: 0;
+      }
     h3 {
       margin-top: 11px;
     }
 
     p {
       margin-top: 13px;
+      @media @phone {
+        padding-bottom: 0px;
+      }
+      
     }
   }
 
@@ -45,9 +90,22 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    
+    @media @phone {
+      display: flex;
+      flex-direction: column-reverse;    
+      width: 100%;
+      padding: 20px;
+      margin-top: 40px;
+    }
 
     .walk-text {
       width: 50%;
+
+    @media @phone {
+      
+      width: 100%;
+    }
 
       h3 {
         margin-bottom: 10px;
@@ -58,17 +116,35 @@
       }
 
       .btn {
+        button {
+          .custom-btn(28%, 0, @ebony-clay, @porcelain);
+
+          @media @phone {
+            .custom-btn(100%, 60px, @ebony-clay, @porcelain);
+            border-radius: 5px;
+          }
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media @phone {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 20px;
+        border-radius: 10px;
       
+      }
+
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+
       }
     }
   }
